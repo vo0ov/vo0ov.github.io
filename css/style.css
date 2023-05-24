@@ -1,0 +1,77 @@
+#logo {
+    margin: 20px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    margin: 0 15.5% 0 15.5%;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: solid;
+}
+
+#header-h2 {
+    font-family: "COURIER NEW";
+}
+
+#header-p {
+    font-family: "COURIER NEW";
+}
+
+main {
+    margin: 50px 17% 50px 17%;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: solid;
+}
+
+#main-h3 {
+    font-family: "COURIER NEW";
+}
+
+footer {
+    margin: 0 18% 0 18%;
+    padding: 13px;
+    border-radius: 13px;
+    text-align: center;
+    border: 2px solid;
+}
+
+#footer-p {
+    font-family: "COURIER NEW";
+}
+
+/* PROJECTS */
+
+@media screen and (min-width: 1200px) {
+    .project {
+        border: 1px solid;
+        border-radius: 15px;
+        margin: 0 40% 0 40%;
+    }
+}
+
+.project-image {
+    margin-top: 20px;
+}
+
+.project-languages {
+    padding: 8px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    font-family: "COURIER NEW";
+}
+
+.project-name {
+    font-family: "COURIER NEW";
+}
+
+.project-description {
+    font-family: "COURIER NEW";
+}
