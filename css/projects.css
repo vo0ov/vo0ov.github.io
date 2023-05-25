@@ -4,26 +4,26 @@
   .project {
     border: 1px solid var(--gray);
   }
-  .project__links {
+  .project-links {
     display: flex;
     gap: 8px;
   }
-  .project__image {
+  .project-image {
     border-bottom: 1px solid var(--gray);
     aspect-ratio: 16/9;
   }
-  .project__content {
+  .project-content {
     padding: 16px;
   }
-  .project__name {
+  .project-name {
     font-size: 24px;
     font-weight: 500;
   }
-  .project__description {
+  .project-description {
     color: var(--gray);
     margin: 16px 0;
   }
-  .project__techs {
+  .project-techs {
     display: flex;
     flex-wrap: wrap;
     gap: 8px 16px;

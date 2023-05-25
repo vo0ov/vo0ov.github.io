@@ -5,6 +5,7 @@
 body {
     background-color: black;
     color: white;
+    vertical-align: baseline
 }
 
 header {
@@ -49,12 +50,25 @@ footer {
 
 /* PROJECTS */
 
-@media screen and (min-width: 1200px) {
-    .project {
-        border: 1px solid;
-        border-radius: 15px;
-        margin: 0 40% 0 40%;
+
+.project-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    align-items: start;
+    margin-top: 48px;
+}
+
+@media (max-width: 1024px) {
+    .project-list {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
+}
+
+.project {
+    border: 1px solid;
+    border-radius: 15px;
 }
 
 .project-image {
