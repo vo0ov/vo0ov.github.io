@@ -89,3 +89,20 @@ footer {
 .project-description {
     font-family: "COURIER NEW";
 }
+
+.project-links {
+    margin: 0 0 10px 0;
+}
+
+.button {
+    font-family: "calibri";
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid #ffffff;
+}
+
+.button:hover {
+    background-color: #ffffff2a
+}
