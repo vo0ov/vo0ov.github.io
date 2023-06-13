@@ -48,6 +48,11 @@ footer {
     font-family: "COURIER NEW";
 }
 
+a {
+    color: #FF8000;
+    text-decoration: none;
+}
+
 /* PROJECTS */
 
 
