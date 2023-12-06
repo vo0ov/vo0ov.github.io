@@ -25,21 +25,24 @@
 <body>
     <!-- Yandex.RTB R-A-4212898-1 -->
     <script>
-        window.yaContextCb.push(()=>{
-            Ya.Context.AdvManager.render({
-                "blockId": "R-A-4212898-2",
-                "type": "fullscreen",
-                "platform": "desktop"
-            })
-        })
-        window.yaContextCb.push(()=>{
-            Ya.Context.AdvManager.render({
-                "blockId": "R-A-4212898-1",
-                "type": "fullscreen",
-                "platform": "touch"
-            })
-        })
-    </script>
+        window.yaContextCb.push(() => {
+            if (Ya.Context.AdvManager.getPlatform() === 'desktop') {
+              // вызов полноэкранного блока для десктопной версии
+              Ya.Context.AdvManager.render({
+                blockId: 'R-A-4212898-2',
+                type: 'fullscreen',
+                platform: 'desktop',
+              });
+            } else {
+              // вызов полноэкранного блока для мобильной версии
+              Ya.Context.AdvManager.render({
+                blockId: 'R-A-4212898-1',
+                type: 'fullscreen',
+                platform: 'touch',
+              });
+            }
+        });
+      </script>
 
     <img id="logo" src="images/vo0ov.png" alt="logo" width="64" height="64">
     <header>
