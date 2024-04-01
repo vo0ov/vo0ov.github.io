@@ -112,3 +112,14 @@ a {
 .button:hover {
     background-color: #ffffff2a
 }
+
+.pixel,
+.pixel:active,
+.pixel:focus {
+    border: solid;
+    /* border: none; */
+    border-color: #2e2e2e;
+    border-width: 2px;
+    width: 50px;
+    height: 50px;
+}
