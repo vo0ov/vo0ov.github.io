@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="ru">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,21 @@
     <link rel="icon" href="images/vo0ov.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Yandex.RTB -->
-    <script>window.yaContextCb=window.yaContextCb||[]</script>
-    <script src="https://yandex.ru/ads/system/context.js" async></script>
     <!-- <script src="js/snow.js" defer></script> -->
+
+    <!-- Yandex.RTB -->
+    <script>window.yaContextCb = window.yaContextCb || []</script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
 </head>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQKJ2WBG03"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-ZQKJ2WBG03');
+    gtag('config', 'G-ZQKJ2WBG03');
 </script>
 
 <body>
@@ -28,22 +30,22 @@
     <script>
         window.yaContextCb.push(() => {
             if (Ya.Context.AdvManager.getPlatform() === 'desktop') {
-              // вызов полноэкранного блока для десктопной версии
-              Ya.Context.AdvManager.render({
-                blockId: 'R-A-4212898-2',
-                type: 'fullscreen',
-                platform: 'desktop',
-              });
+                // вызов полноэкранного блока для десктопной версии
+                Ya.Context.AdvManager.render({
+                    blockId: 'R-A-4212898-2',
+                    type: 'fullscreen',
+                    platform: 'desktop',
+                });
             } else {
-              // вызов полноэкранного блока для мобильной версии
-              Ya.Context.AdvManager.render({
-                blockId: 'R-A-4212898-1',
-                type: 'fullscreen',
-                platform: 'touch',
-              });
+                // вызов полноэкранного блока для мобильной версии
+                Ya.Context.AdvManager.render({
+                    blockId: 'R-A-4212898-1',
+                    type: 'fullscreen',
+                    platform: 'touch',
+                });
             }
         });
-      </script>
+    </script>
 
     <img id="logo" src="images/vo0ov.png" alt="logo" width="64" height="64">
     <main>
@@ -52,7 +54,43 @@
     </main>
     <footer>
         <p id="footer-p">Все права защищены - 2024. Сделал vo0ov.<br>Связь - admin@vo0ov.fun</p>
-        <a href="https://www.dmca.com/Protection/Status.aspx?ID=ada29560-99f3-434e-abfe-8fa042fb8a3f" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w200-5x1-01.png?ID=ada29560-99f3-434e-abfe-8fa042fb8a3f"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+        <a href="https://www.dmca.com/Protection/Status.aspx?ID=ada29560-99f3-434e-abfe-8fa042fb8a3f"
+            title="DMCA.com Protection Status" class="dmca-badge"> <img
+                src="https://images.dmca.com/Badges/dmca-badge-w200-5x1-01.png?ID=ada29560-99f3-434e-abfe-8fa042fb8a3f"
+                alt="DMCA.com Protection Status" /></a>
+        <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
     </footer>
+
+    <script>
+        window.yaContextCb.push(() => {
+            if (Ya.Context.AdvManager.getPlatform() === 'desktop') {
+                // вызов полноэкранного блока для десктопной версии
+                Ya.Context.AdvManager.render({
+                    "blockId": "R-A-9056471-1",
+                    "type": "fullscreen",
+                    "platform": "desktop"
+                });
+                Ya.Context.AdvManager.render({
+                    "blockId": "R-A-9056471-3",
+                    "type": "floorAd",
+                    "platform": "desktop"
+                });
+            } else {
+                // вызов полноэкранного блока для мобильной версии
+                Ya.Context.AdvManager.render({
+                    "blockId": "R-A-9056471-2",
+                    "type": "fullscreen",
+                    "platform": "touch"
+                });
+                Ya.Context.AdvManager.render({
+                    "blockId": "R-A-9056471-4",
+                    "type": "floorAd",
+                    "platform": "touch"
+                });
+            }
+        });
+    </script>
+
 </body>
+
 </html>
