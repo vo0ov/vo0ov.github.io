@@ -1,0 +1,20 @@
+.center_box {
+    padding: 10% 50px 100px 50px;
+}
+
+.title {
+    /* padding-top: 0px; */
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.sub_title {
+    color: #b5b5b5;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    padding: 0 8% 16px;
+}

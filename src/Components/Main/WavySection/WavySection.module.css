@@ -1,0 +1,16 @@
+.wavy_section {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.wavy {
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+    -webkit-user-select: none;
+    user-select: none;
+}

@@ -1,0 +1,9 @@
+.logo {
+    margin: 10px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    pointer-events: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
