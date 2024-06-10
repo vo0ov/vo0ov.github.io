@@ -7,10 +7,7 @@ export default function InfoSection() {
         <section className={`${styles.info_section}`}>
             <h1 className={`${styles.title}`}>Связь со мной</h1>
             <p className={`${styles.sub_title}`}>
-                У бота есть свой собственный сервер!
-                <br />
-                Зайдя туда, вы можете сообщить о багах, идеях или просто
-                пообщаться.
+                Вы можете связаться со мной по этим ссылкам
             </p>
             <Button
                 href={'https://t.me/vo0ov_programmer'}
