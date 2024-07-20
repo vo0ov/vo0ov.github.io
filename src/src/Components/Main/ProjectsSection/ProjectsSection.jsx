@@ -6,7 +6,7 @@ import mClicker from '../../../assets/Projects/moneyClicker.webp';
 import screenLight from '../../../assets/Projects/screenLight.webp';
 import CarDriving from '../../../assets/Projects/carDriving.webp';
 import MagicBall from '../../../assets/Projects/magicBall.webp';
-import ItsChat from '../../../assets/Projects/itsChat.webp';
+import TheLifeOfSquares from '../../../assets/Projects/theLifeOfSquares.webp';
 
 export default function WavySection() {
     return (
@@ -19,12 +19,12 @@ export default function WavySection() {
             </p>
             <div className={`${styles.project_list}`}>
                 <Project
-                    image={ItsChat}
-                    languages="React, HTML, CSS, JS, Python, Fast API, MySQL"
-                    name="It's Chat!"
-                    description="Мессенджер на React."
-                    buttonText="В разработке"
-                    url=""
+                    image={TheLifeOfSquares}
+                    languages="Java, JavaFX, Intellej IDEA"
+                    name="The Life Of Squares"
+                    description="Игра про развитие эволюции."
+                    buttonText="Github"
+                    url="https://github.com/vo0ov/The-life-of-squares"
                 />
                 <Project
                     image={MagicBall}
