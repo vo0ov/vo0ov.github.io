@@ -1,21 +1,25 @@
-import Project from './Project/Project';
-import styles from './ProjectsSection.module.css';
+import Project from "./Project/Project";
+import styles from "./ProjectsSection.module.css";
 
-import MySite from '../../../assets/Projects/vo0ovAvatar.webp';
-import mClicker from '../../../assets/Projects/moneyClicker.webp';
-import screenLight from '../../../assets/Projects/screenLight.webp';
-import CarDriving from '../../../assets/Projects/carDriving.webp';
-import MagicBall from '../../../assets/Projects/magicBall.webp';
-import TheLifeOfSquares from '../../../assets/Projects/theLifeOfSquares.webp';
+import CarDriving from "../../../assets/Projects/carDriving.webp";
+import MagicBall from "../../../assets/Projects/magicBall.webp";
+import mClicker from "../../../assets/Projects/moneyClicker.webp";
+import screenLight from "../../../assets/Projects/screenLight.webp";
+import TheLifeOfSquares from "../../../assets/Projects/theLifeOfSquares.webp";
+import MySite from "../../../assets/Projects/vo0ovAvatar.webp";
 
 export default function WavySection() {
     return (
         <section className={`${styles.info_section}`}>
             <h1 className={`${styles.title}`}>Мои проекты</h1>
             <p className={`${styles.sub_title}`}>
-                Это лишь некоторая чать моих
+                ВАЖНО: Это лишь некоторая часть моих проектов.
                 <br />
-                публичных и активных на данный момент проектов.
+                Есть много других, которые я делал на заказ или не хочу
+                показывать.
+                <br />
+                (сейчас они все работают в продакшене и поддерживаются лично
+                мной)
             </p>
             <div className={`${styles.project_list}`}>
                 <Project
